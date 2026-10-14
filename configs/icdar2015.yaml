@@ -1,0 +1,24 @@
+# Training configuration for ICDAR 2015 (notebooks 03, 06).
+# ICDAR 2015 ships with an official train / test split, which is used
+# here as train / val respectively (there is no separate val set).
+
+model_variants:
+  yolov8: yolov8s.pt
+  rtdetr: rtdetr-l.pt
+  yoloworld: yolov8s-worldv2.pt
+
+training:
+  imgsz: 640
+  epochs: 100
+  batch:
+    yolov8: 16
+    yoloworld: 16
+    rtdetr: 8
+  seed: 0
+  optimizer: SGD
+  polygon_handling: axis_aligned_bbox   # polygon vertices -> enclosing box
+
+evaluation:
+  conf: 0.001
+  iou: 0.6
+  split: val   # ICDAR 2015 official test split

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (do not commit)
+*.pt
+*.onnx
+*.pth
+weights/
+runs/
+runs_smoke/
+
+# Local data (do not commit)
+data/raw/
+data/processed/
+data/container/
+data/icdar2015/
+data/coco/
+rf_raw_v3/
+
+# Outputs
+*.log
+mlruns/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp

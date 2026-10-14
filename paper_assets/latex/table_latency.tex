@@ -1,0 +1,13 @@
+\begin{table}[t]
+\centering
+\caption{Inference latency and peak GPU memory (imgsz 640, batch 1, single GPU).}\label{tab:latency}
+\begin{tabular}{lllll}
+\toprule
+\textbf{model} & \textbf{inference\_ms\_mean} & \textbf{inference\_ms\_std} & \textbf{fps} & \textbf{peak\_gpu\_mem\_MB} \\
+\midrule
+yolov8s & 8.94 & 0.47 & 111.90 & 102.80 \\
+rtdetr-l & 46.31 & 2.42 & 21.60 & 289.00 \\
+yolo-world & 9.28 & 0.86 & 107.70 & 725.40 \\
+\bottomrule
+\end{tabular}
+\end{table}

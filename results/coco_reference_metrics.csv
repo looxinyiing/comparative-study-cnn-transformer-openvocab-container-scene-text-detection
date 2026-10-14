@@ -1,0 +1,4 @@
+model,mode,mAP50-95,mAP50,precision,recall,published,delta
+yolov8s,pretrained,0.4484,0.6132,0.6841,0.562,0.449,-0.0006
+rtdetr-l,pretrained,0.5214,0.7021,0.7432,0.6545,0.53,-0.0086
+yolo-world-zs,zero-shot,0.3748,0.517,0.6006,0.4859,,

@@ -1,0 +1,4 @@
+model,inference_ms_mean,inference_ms_std,fps,peak_gpu_mem_MB
+yolov8s,8.94,0.47,111.9,102.8
+rtdetr-l,46.31,2.42,21.6,289.0
+yolo-world,9.28,0.86,107.7,725.4

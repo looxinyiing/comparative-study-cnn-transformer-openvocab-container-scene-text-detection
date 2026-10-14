@@ -1,0 +1,7 @@
+dataset,split,images,boxes,boxes_per_img,box_area_p50,box_area_p95,sizes_top3
+container,train,701,700.0,1.0,0.01927,0.03752,640x640:701
+container,valid,200,200.0,1.0,0.01925,0.04034,640x640:200
+container,test,100,100.0,1.0,0.01948,0.04401,640x640:100
+icdar,train,1000,4468.0,4.47,0.00223,0.01661,1280x720:1000
+icdar,test,500,2077.0,4.15,0.00244,0.02094,1280x720:500
+coco,val2017,5000,,,,,variable

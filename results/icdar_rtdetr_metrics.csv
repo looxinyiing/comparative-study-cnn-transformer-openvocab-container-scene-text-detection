@@ -1,0 +1,2 @@
+model,split,mAP50-95,mAP50,precision,recall
+rtdetr-l,test,0.4526,0.7355,0.7064,0.6842

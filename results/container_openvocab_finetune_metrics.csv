@@ -1,0 +1,2 @@
+model,split,mAP50-95,mAP50,precision,recall
+yolo-world-ft,test,0.9181,0.9948,0.9974,0.99

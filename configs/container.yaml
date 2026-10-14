@@ -1,0 +1,26 @@
+# Training configuration for the container dataset (notebooks 01, 02).
+# Reproduces the paper's Table 1 container columns.
+
+model_variants:
+  yolov8: yolov8s.pt
+  rtdetr: rtdetr-l.pt
+  yoloworld: yolov8s-worldv2.pt
+
+training:
+  imgsz: 640
+  epochs: 100
+  batch:
+    yolov8: 16
+    yoloworld: 16
+    rtdetr: 8
+  seed: 0
+  optimizer: SGD   # ultralytics default schedule
+  dataset_split:
+    train: 0.70
+    val: 0.20
+    test: 0.10
+
+evaluation:
+  conf: 0.001
+  iou: 0.6
+  split: test

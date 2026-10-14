@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper below."
+title: "Container Text Detection Benchmark"
+authors:
+  - family-names: Loo
+    given-names: Xin Yiing
+  - family-names: Yang
+    given-names: Siyuan
+  - family-names: Dong
+    given-names: Xiaodan
+  - family-names: Huang
+    given-names: Weidong
+preferred-citation:
+  type: conference-paper
+  title: "A Comparative Study of CNN-Based, Transformer-Based, and Open-Vocabulary Detectors for Cargo Container and Scene Text Detection"
+  authors:
+    - family-names: Loo
+      given-names: Xin Yiing
+    - family-names: Yang
+      given-names: Siyuan
+    - family-names: Dong
+      given-names: Xiaodan
+    - family-names: Huang
+      given-names: Weidong
+  conference:
+    name: "The 5th International Conference on Computer Applications Technology (CCAT)"
+    city: Fukuoka
+    country: JP
+  year: 2026

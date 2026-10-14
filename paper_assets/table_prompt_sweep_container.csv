@@ -1,0 +1,9 @@
+idx,prompt,mAP50-95,mAP50,precision,recall
+1,container-number,0.0,0.0,0.0,0.0
+2,container number,0.0,0.0,0.0,0.0
+3,text,0.0005,0.0023,0.0045,0.01
+4,serial number,0.0,0.0,0.0,0.0
+5,white text on shipping container,0.0008,0.0012,0.0022,0.02
+6,identification code on cargo container,0.0,0.0,0.0,0.0
+7,letters and numbers,0.0033,0.0082,0.0156,0.04
+8,printed text,0.0012,0.0058,0.0115,0.01
